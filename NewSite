@@ -3,13 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        .box{width: 80%;background: #225a8b;height: auto;
+         margin: 10px;padding: 10px;font-style: italic;float:left;
+        border-style: dashed;border-color: fuchsia;
+        }
+        h1{text-align: center;background: #dddddd;margin-left: 40%;
+        margin-right: 40%;color: fuchsia;
+        }
+        span{text-align: left;color: aliceblue;font-style: normal;
+         font-size: medium;
+        }
+    </style>
 </head>
 <body>
-<div class="grid">
-    <img src="images/images/dc240d0a-2865-ce67-4da6-7ef302d04eab.jpg"
-         alt="People">
+<div class="box">
+<h1>Block 1</h1>
+<!--    <div class="Programm"><div/>-->
+<span>Programm</span>
 </div>
-
-</divgrid>
-</body>
-</html>
+<div class="box">
+  <h1>Block 2</h1>
+    <span>
+Implementation</span>
+</div>
