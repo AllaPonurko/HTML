@@ -20,10 +20,10 @@
     }
 </style>
 <body>
-<form>
-    <h1 visibility="false">Welcome to page!</h1>
-    <a><button name ="Open"> Open</button></a>
+<form >
+    <h1 >Welcome to page!</h1>
+    <a><button name ="Open" onclick="document.location='page/new.html'"> Open</button></a>
 </form>
 
 </body>
-</html>
+
