@@ -14,16 +14,19 @@
         text-transform: uppercase;
         font-weight: bold;
         color: white;
+        margin:0px auto;
+        display: block;
     }
     button[name="Open"]:hover {
         background: #ff6600;
     }
+    h1{text-align: center}
 </style>
 <body>
 <form >
     <h1 >Welcome to page!</h1>
-    <a><button name ="Open" onclick="document.location='page/new.html'"> Open</button></a>
+    <a><button name ="Open" onclick="document.location='page/new.html'">Open</button></a>
 </form>
 
 </body>
-
+</html>
