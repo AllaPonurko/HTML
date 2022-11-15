@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style type="text/css">
+    button[name="Open"] {
+        border: none;
+        border-radius: 7px;
+        padding: 10px 25px;
+        background: #ff9900;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+    }
+    button[name="Open"]:hover {
+        background: #ff6600;
+    }
+</style>
+<body>
+<form>
+    <h1 visibility="false">Welcome to page!</h1>
+    <a><button name ="Open"> Open</button></a>
+</form>
+
+</body>
+</html>
